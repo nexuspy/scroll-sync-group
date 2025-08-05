@@ -1,14 +1,24 @@
-# scroll-sync-group
+# 🟩🟩 Scroll Sync Group 🟩🟩
 
-A tiny utility to sync scroll positions of multiple elements.
+<pre>
+███████╗ ██████╗  ██████╗ ██╗         ██╗███████╗ ██████╗ 
+██╔════╝██╔═══██╗██╔═══██╗██║         ██║██╔════╝██╔═══██╗
+███████╗██║   ██║██║   ██║██║         ██║█████╗  ██║   ██║
+╚════██║██║   ██║██║   ██║██║         ██║██╔══╝  ██║   ██║
+███████║╚██████╔╝╚██████╔╝███████╗    ██║███████╗╚██████╔╝
+╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝    ╚═╝╚══════╝ ╚═════╝ 
+</pre>
+---
 
-## Installation
+A powerful utility to synchronize the scroll positions of multiple DOM elements. Immerse yourself in the Matrix of scrolling!
 
+## 💻 Installation
 ```bash
 npm install scroll-sync-group
 ```
 
-## Usage
+## 🚀 Usage
+Synchronize elements with ease.
 
 ```ts
 import { addToScrollGroup } from 'scroll-sync-group';
@@ -17,8 +27,15 @@ addToScrollGroup(document.getElementById('left'), 'group1');
 addToScrollGroup(document.getElementById('right'), 'group1');
 ```
 
-## API
+## 📜 API
+### 🔗 **addToScrollGroup(el: HTMLElement, groupId: string)**
+- **el**: The DOM element to be synchronized.
+- **groupId**: Identifier for the scroll group.
 
-**addToScrollGroup(el: HTMLElement, groupId: string)**
+### 🔗 **removeFromScrollGroup(el: HTMLElement, groupId: string)**
+- **el**: The DOM element to be unsynchronized.
+- **groupId**: Identifier for the scroll group.
 
-**removeFromScrollGroup(el: HTMLElement, groupId: string)**
+---
+
+### 🖥️ Hack the code, sync the scroll! 🖥️
